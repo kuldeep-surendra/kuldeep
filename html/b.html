@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+</head>
+<body>
+
+enter x: <input type="number" id="inp"> <br>
+enter y: <input type="number" id="ip"> <br>
+	
+
+<button onclick="func()" class="opp"  value="+"> + </button> 
+<button onclick="func()" class="opp" value="-"> - </button> 
+<!-- <button onclick="func()" class="opp" value="*"> * </button> 
+<button onclick="func()" class="opp" value="/"> / </button>
+ -->
+<p id="hi"></p>
+<script type="text/javascript">
+	//console.log(document.getElementById('hi').innerHTML=Date());
+function func(){
+	debugger;
+	var x,y,a,c;
+	 x = 1.0*(document.getElementById("inp").value);
+	y = 1.0*(document.getElementById("ip").value);
+	var a = document.getElementsByClassName("opp");
+    
+    
+	// a[0] = document.getElementsByClassName("opp").value;
+
+	switch (true){
+		case a[0].value: c = x + y;
+		console.log(c);
+		break;
+		case a[1].value: c = x - y; break;
+	}
+	// if (a[0].value) {
+	// 	c = x + y;
+	// 	console.log(c);
+	// }else{
+	// 	c = x - y;
+	// }
+	
+	// if (a[0].value == "+") {
+	// 	c = x + y;
+	// 	console.log(c);
+	// }
+	// elseif (a[1].value == "-") {
+	// 	c = x - y;
+	// }
+	// elseif (a[2].value  == "*") {
+	// 	c = x * y;
+	// }
+	// else (a[3].value  == "/") {
+	// 	c = x / y;
+	// }
+	document.getElementById("hi").innerHTML = c;
+	
+}
+</script>
+
+</body>
+</html>

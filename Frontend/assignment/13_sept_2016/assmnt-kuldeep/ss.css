@@ -1,0 +1,186 @@
+body{
+	background-image: url("j.jpg");
+  width: 100%;
+  height: 100%;
+
+  
+  
+
+}
+html{
+  
+  width: 100%;
+  height: 100%;
+
+  min-width: 960px;
+  
+  
+}
+
+.ptag {
+	    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    height: 0px;
+    font-style: italic;
+    color: #EAC324;
+    position: relative;
+    
+
+}
+img.image{
+  position:absolute;
+  float:left;	
+}
+img.mmimg{
+  position:absolute;
+  float:right;
+}
+.main-navigation{
+  margin-top:2em;
+
+}
+.imageContainer {
+	margin-top: 80px;
+	margin-left: 118px;
+       width:550px; 
+       height:400px; 
+       background-image: url(ig.jpg);
+
+ }
+iframe{
+	width:20%;
+	
+}
+ul {
+  background: #6495ED;
+}
+
+ul li {
+  display: block;
+  
+  float: left;
+  background: #6495ED;
+}
+
+/* This hides the dropdowns */
+
+
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+ul li a:hover { background: #2c3e50; }
+
+/* Display the dropdown */
+
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #6495ED; }
+
+
+
+
+
+
+
+
+/* Simple clearfix */
+
+
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
+
+/*@media (max-width: 480px) {
+  body{
+    width: 100%;
+  height: 100%;
+  }
+ 
+  
+
+}*/
+
+.retailers{
+border:1px outset;  
+margin-bottom:25px;
+
+}
+#subdiv{
+  display: none;
+}
+#seconddiv{
+display: none;
+}
+#thirddiv{
+  display: none;
+  background: white;
+}
+#fourthdiv{
+  display:none;
+  float: center;
+  background: white;
+    
+}
+.showroom{
+  margin-left: 330px;
+  
+  
+}
+.tbl{
+  background: white;
+  border:2px solid; 
+  font-style: italic;
+  font-size: 25px;
+}
+.tr1{
+  background: #6495ED;
+}
+.tr2{
+  background: #6495ED;
+}
+
+
+.shrtimg{
+  float: left;
+  width: 450px;
+  height:400px;
+}
+.inp{
+  margin-bottom: 8px; 
+  margin-right: 380px;
+}
+.lbl{
+  font-size:25px;
+  font-style: bold;
+}
+.div4{
+  margin-left: 100px;
+   margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background: grey;
+}
+.smg{
+   width:250px;
+    height:250px;
+}

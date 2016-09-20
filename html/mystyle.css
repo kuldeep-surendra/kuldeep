@@ -1,0 +1,45 @@
+.tabl  td{ 
+  color:#556B2F; 
+  font-size: 25px;
+  font-style:oblique;
+}
+
+nav a{
+	font-size: xx-large;
+		color:red;
+}
+table .l th{
+	font-style:italic; 
+		 font-size:30px;
+		 color:#00FA9A;
+}
+h3{
+	text-align: center;
+	font-size: 40px;
+	color:#5F9Ef0;
+}
+.i a{
+		font-size: 30px;
+		color:#B22222;
+		background: LightCyan;
+		font-style: oblique;
+	}
+div{
+	background: LightCyan;
+
+	}
+.fot p{
+		letter-spacing: 3px;
+		word-spacing: 6px;
+		font-size:20px;
+		color: red;
+		text-indent: 1cm;
+		font-weight: bold;
+
+
+	}
+hr{
+	border-color:#F0E68C;
+}
+
+

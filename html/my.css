@@ -1,0 +1,28 @@
+.i a{
+		font-size: 30px;
+		color:#B22222;
+		background: LightCyan;
+		font-style: oblique;
+	}
+	.fot p{
+		letter-spacing: 3px;
+		word-spacing: 6px;
+		font-size:20px;
+		color: red;
+		text-indent: 1cm;
+		font-weight: bold;
+
+
+	}
+	body {
+    background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+div{
+	background: LightCyan;
+}
+hr{
+	border-color:#F0E68C;
+}

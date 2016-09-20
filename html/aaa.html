@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+<div id= "container1" style="display:none">
+	hello
+
+</div>
+<div id= "container2" style="display:none">
+	world
+
+</div>
+<div id= "container3" style="display:none">
+	hello folks!
+
+</div>
+<button onclick="onClick()">try</button>
+
+<script type="text/javascript">
+clicks = 0;
+    function onClick() {
+        clicks += 1;
+        myFunction(clicks);
+        //document.getElementById("clicks").innerHTML = clicks;
+    };
+	function myFunction(count){
+		for(i = 0; i < count ;i++ ){
+			document.getElementById('container1').style.display = "block";
+			document.getElementById('container2').style.display = "none";
+			document.getElementById('container3').style.display = "none";
+		//}
+	//	else if(count == 2){
+			//document.getElementById('container1').style.display = "none";
+			//document.getElementById('container2').style.display = "block";
+			//document.getElementById('container3').style.display = "none";
+	//	}
+	//	else {
+			//document.getElementById('container1').style.display = "none";
+			//document.getElementById('container2').style.display = "none";
+			//document.getElementById('container3').style.display = "block";
+		}
+	}
+</script>
+</body>
+</html>

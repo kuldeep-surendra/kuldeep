@@ -1,0 +1,36 @@
+.i a{
+		font-size: 30px;
+		color:#B22222;
+		background: LightCyan;
+		font-style: oblique;
+	}
+
+.d{
+	background: LightCyan;
+}
+.c{
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		
+		
+	}
+.a{
+	font-size:20px;
+	color:red;
+}
+.fot p{
+		letter-spacing: 3px;
+		word-spacing: 6px;
+		font-size:20px;
+		color: red;
+		text-indent: 1cm;
+		font-weight: bold;
+
+
+	}
+hr{
+	border-color:#F0E68C;
+}
+ul + p {color:red;}
