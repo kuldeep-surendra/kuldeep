@@ -54,12 +54,12 @@
     cursor: pointer;
      width:275px;
 }
-.lside{
+/*.lside{
 	background-color: black;
-}
-.rside{
+}*/
+/*.rside{
 	background-color: black;
-}
+}*/
 li.fstlist {
 	list-style-image: url(logo-and-icons/icon-right-arrow.png);
 }
@@ -71,4 +71,10 @@ li.thirdlist{
 }
 #rsidevvpuram{
 	background-color: white;
+}
+button:active{
+    background:olive;
+}
+button:focus{
+    background:olive;
 }
