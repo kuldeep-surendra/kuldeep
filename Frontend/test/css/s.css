@@ -1,0 +1,67 @@
+h1{
+	color:red;
+}
+h1.heading{
+	color:green;
+}
+h1.heading.blue-head{
+	color:blue;
+}
+.right-section{
+	background-color: blue;
+	color: #fff;
+	padding: 20px;
+
+
+}
+.left-section{
+	background-color: green;
+	color: #fff;
+	padding: 20px;
+}
+.middle-section{
+	background-color: grey;
+	padding:20px;
+}
+@media (max-width: 480px)  { 
+	h1{
+		font-size: 12px;
+
+	}
+ }
+@media (min-width: 481px) and (max-width: 599px) { 
+	h1{
+		font-size: 24px;
+	}
+ }
+ /* small tablet protrait*/
+@media (min-width: 600px) and (max-width: 767px)  { 
+	h1{
+		font-size: 36px;
+	}
+ }
+ /* small tablet landscape*/
+@media (min-width: 768px) and (max-width: 959px) { 
+	h1{
+		font-size: 48px;
+		color:black;
+
+	}
+ }
+
+ /*  tablet landscape 1024 * 720 */
+ @media (min-width: 960px) and (max-width: 1199px) { 
+ 	h1{
+		font-size: 56px;
+		color:blue;
+
+	}
+
+
+ }
+ label.email{
+ 	color:red;
+ }
+ label.pswd{
+ 	color:red;
+ }
