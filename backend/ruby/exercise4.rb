@@ -1,41 +1,66 @@
 class Bird
-	def initialize(x,y)
-		@sound = x
-		@flies = y
-	end
-	def speak
-	puts @sound
 
-	end
+    def speak(b)
 
-	def fly
-	 puts @flies	
-	end
+        b.speak
+
+    end
+
+    def fly(b)
+
+        b.fly
+
+    end
+
 end
 
-class Duck < Bird
-	def speak
-	puts @sound
+class Duck
 
-	end
+    def speak
 
-	def fly
-	 puts @flies	
-	end
+        puts "Qwack"
+
+    end
+
+    def fly
+
+        puts "Ofcourse I can"
+
+    end
+
 end
 
-class Penguin < Bird
-	def speak
-		puts @sound
-	end
+class Penguin
 
-	def fly
-		puts @flies
-	end
+    def speak
+
+        puts "Loud squrking noise"
+
+    end
+
+    def fly
+
+        puts "I am limited to the ground and water"
+
+    end
+
 end
 
-b=Bird.new("speaks","flies")
-b.speak
-b.fly
-d=Duck.new("quacks","it_flies")
-p=Penguin.new("xxxx","do not fly")
+bird = Bird.new
+
+puts "=================DUCK============="
+
+b = Duck.new
+
+bird.fly(b)
+
+bird.speak(b)
+
+puts "=================PENGUIN=========="
+
+b = Penguin.new
+
+bird.speak(b)
+
+bird.fly(b)
+
