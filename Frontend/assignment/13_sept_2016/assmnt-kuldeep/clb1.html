@@ -60,6 +60,8 @@
       
     </ul>
   </li>
+  <li><input type = "text" placeholder="search" style="margin-top:10px; margin-left:500px"> <input type="submit" value="search"></li>
+  <li> </li>
 </ul>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d124735.39768112496!2d76.59647710887283!3d12.317053691902812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sretailers+in+Mysore%2C+Karnataka!5e0!3m2!1sen!2sin!4v1473391251791" width="600" height="450" frameborder="0" style="border:2px solid;" align="right" allowfullscreen></iframe>
@@ -376,20 +378,27 @@ $('button.inp').click(function(){
   var y = jQuery('input.lname').val();
   var z = jQuery('input.mail').val();
   var a = jQuery('input.phnumbr').val();
-  if(x == "" || y == "" || z == "" || a == ""){
-    jQuery('label.fn').css("color","red"); 
-    jQuery('label.ln').css("color","red");
-    jQuery('label.mil').css("color","red"); 
-    jQuery('label.ph').css("color","red");
-  } else {
-    jQuery('label.fn').css("color","black"); 
-    jQuery('label.ln').css("color","black");
-    jQuery('label.mil').css("color","black"); 
-    jQuery('label.ph').css("color","black");
-    alert("The product is reserved");
-  }
+  if (x == "") {jQuery('label.fn').css("color","red");} else {jQuery('label.fn').css("color","black");}
+  if (y == "") {jQuery('label.ln').css("color","red");} else {jQuery('label.ln').css("color","black");}
+  if (z == "") {jQuery('label.mil').css("color","red");} else {jQuery('label.mil').css("color","black");}
+  if (a == "") {jQuery('label.ph').css("color","red");} else {jQuery('label.ph').css("color","black");}
+  if (x != "" && y!="" && z!="" && a!="") {alert("The product is reserved");} 
+  // if(x == "" || y == "" || z == "" || a == ""){
+  //   jQuery('label.fn').css("color","red"); 
+  //   jQuery('label.ln').css("color","red");
+  //   jQuery('label.mil').css("color","red"); 
+  //   jQuery('label.ph').css("color","red"); 
+  //   alert("Enter the details properly");
+  // } 
+  // else {
+  //   jQuery('label.fn').css("color","black"); 
+  //   jQuery('label.ln').css("color","black");
+  //   jQuery('label.mil').css("color","black"); 
+  //   jQuery('label.ph').css("color","black");
+  //   alert("The product is reserved");
+  // }
 
-})
+});
 </script>
 
 
