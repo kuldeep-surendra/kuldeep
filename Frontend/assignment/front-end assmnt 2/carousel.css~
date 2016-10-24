@@ -166,18 +166,6 @@ input[type=text] {
   .logo{
     width:20px;
   }
-  .tests{
-    height:600px;
-  }
-  .t20{
-    height: 600px;
-  }
-  .odi{
-    height: 600px;
-  }
-  .pagenum{
-    width: 300px;
-  }
 }
 
 input[type=text]:focus {
