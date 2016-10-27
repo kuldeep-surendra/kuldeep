@@ -1,0 +1,11 @@
+<%=form_for(@employee, url: employee_path) do |f|%>
+	<%= f.label :firstname %><br>
+    <%= f.text_field :firstname %><br>
+    <%= f.label :lastname %><br>
+    <%= f.text_field :lastname %><br>
+    <%= f.label :employee_code %><br>
+    <%= f.text_field :employee_code %><br>
+    <%= f.label :designation %><br>
+    <%= f.text_field :designation %><br>
+    <%= f.submit :submit %>
+<%end%>

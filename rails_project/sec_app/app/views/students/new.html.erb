@@ -1,0 +1,9 @@
+<%=form_for(@student, url: student_path) do |f|%>
+	<%= f.label :firstname %><br>
+    <%= f.text_field :firstname %><br>
+    <%= f.label :lastname %><br>
+    <%= f.text_field :lastname %><br>
+    <%= f.label :student_code %><br>
+    <%= f.text_field :student_code %><br>
+    <%= f.submit :submit %>
+<%end%>

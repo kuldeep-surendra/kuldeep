@@ -1,13 +1,11 @@
 Rails.application.routes.draw do
+  resources :recipes
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  get '/book/new' => 'books#new',as: :book_new
-  post '/book/new' => 'books#create',as: :book_create
-  get "/books/list" => 'books#index',as: :books_list
-  get '/book/:id/edit' => 'books#edit',as: :book_edit
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
