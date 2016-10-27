@@ -1,330 +1,330 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- <link rel="icon" href="../../favicon.ico"> -->
+	<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>Carousel Template for Bootstrap</title>
-     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <title>Carousel Template for Bootstrap</title>
+	     <!-- Custom styles for this template -->
+	    <link href="carousel.css" rel="stylesheet">
+	    <!-- Bootstrap core CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!--     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
- -->
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-     <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<!--     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	 -->
+	    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	     <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
 
-   
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <br>
-    <br>
-  <div class = "container"> 
-  <div class="row">
-    <!-- <div class="col-xs-1"></div> -->
-    <div class="col-xs-5">
-      <a href="#" style ="display:inline-block;" class = "home"><img class="img-responsive logo" src="logo.jpg" width="80px;"></a>
-    </div>
-    <div class="col-xs-4">
-      <h1 class = "heading">CRICiNFO</h1>
-    </div>
-    <div class="col-xs-3">
-      <a href="http://www.facebook.com" style = "display:inline-block;"><img class = "fb" src ="fb.png"/></a>
-      <a href="https://twitter.com"><img class = "twitter" src ="twitter.png"/></a>
-      <a href="#"><img class= "insta" src ="instagram.png"></a>
-    </div>
-  </div> 
- </div>  
-    <div class="navbar-wrapper">
-      <div class="container">
-          <!-- <center><h1 class = "heading"> CRICiNFO </h1></center> -->
-        <nav class="navbar navbar-default navbar-static-top" style = "top: 115px;">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <!-- <a class="navbar-brand" href="#">Project name</a> -->
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav nav-justified">
-                <li class="active"><a href="#" class = "home">Home</a></li>
-                <li><a href="#about" class="about">About</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">India</a></li>
-                    <li><a href="#">Australia</a></li>
-                    <li><a href="#">South-Africa</a></li>
-                    <li><a href="#">Pakistan</a></li>
-                    <li><a href="#">Sri Lanka</a></li>
-                    <li><a href="#">Newzeland</a></li>
-                    <li><a href="#">WestIndies</a></li>
-                    <li><a href="#">England</a></li>
-                    <li><a href="#">Bangladesh</a></li>
-                    <li><a href="#">Zimbabwe</a></li>
-<!--                     <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li> -->
-                  </ul>
-                </li>
-                <li><a href="#">Live Scores!!</a></li>
-                <li><a href="#blog">Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+	   
+	  </head>
+	<!-- NAVBAR
+	================================================== -->
+	  <body>
+	    <br>
+	    <br>
+	 <div class = "container"> 
+	  <div class="row">
+	    <!-- <div class="col-xs-1"></div> -->
+	    <div class="col-xs-5">
+	      <a href="#" style ="display:inline-block;" class = "home"><img class="img-responsive logo" src="logo.jpg" width="80px;"></a>
+	    </div>
+	    <div class="col-xs-4">
+	      <h1 class = "heading">CRICiNFO</h1>
+	    </div>
+	    <div class="col-xs-3">
+	      <a href="http://www.facebook.com" style = "display:inline-block;"><img class = "fb" src ="fb.png"/></a>
+	      <a href="https://twitter.com"><img class = "twitter" src ="twitter.png"/></a>
+	      <a href="#"><img class= "insta" src ="instagram.png"></a>
+	    </div>
+	  </div> 
+	 </div> 
+ 	<!-- <div class="navbar-wrapper"> -->
+	      <!-- <div class="container"> -->
+	          <!-- <center><h1 class = "heading"> CRICiNFO </h1></center> -->
+	        <nav class="navbar navbar-inverse navbar-static-top">
+	          <div class="container">
+	            <div class="navbar-header">
+	              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	              </button>
+	              <!-- <a class="navbar-brand" href="#">Project name</a> -->
+	            </div>
+	            <div id="navbar" class="navbar-collapse collapse">
+	              <ul class="nav nav-justified">
+	                <li class="active"><a href="#" class = "home">Home</a></li>
+	                <li><a href="about.html" class="about">About</a></li>
+	                <li class="dropdown">
+	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams <span class="caret"></span></a>
+	                  <ul class="dropdown-menu">
+	                    <li><a href="#">India</a></li>
+	                    <li><a href="#">Australia</a></li>
+	                    <li><a href="#">South-Africa</a></li>
+	                    <li><a href="#">Pakistan</a></li>
+	                    <li><a href="#">Sri Lanka</a></li>
+	                    <li><a href="#">Newzeland</a></li>
+	                    <li><a href="#">WestIndies</a></li>
+	                    <li><a href="#">England</a></li>
+	                    <li><a href="#">Bangladesh</a></li>
+	                    <li><a href="#">Zimbabwe</a></li>
+	<!--                     <li role="separator" class="divider"></li>
+	                    <li class="dropdown-header">Nav header</li>
+	                    <li><a href="#">Separated link</a></li>
+	                    <li><a href="#">One more separated link</a></li> -->
+	                  </ul>
+	                </li>
+	                <li><a href="#">Live Scores!!</a></li>
+	                <li><a href="#blog">Blog</a></li>
+	              </ul>
+	            </div>
+	          </div>
+	        </nav>
 
-      </div>
-    </div>
+	     <!--  </div> -->
+	     <!-- </div> -->
+ 	  
+	    <!-- Carousel
+	    ================================================== -->
+	   <div class = "container-fluid">   
+	  <div class="row">
+	    <!-- <div class="col-xs-12"> -->
+	      <!-- <div class = "container"> -->
+	        <div id="myCarousel" class="carousel slide cslide" data-ride="carousel">
+	      <!-- Indicators -->
+	            <!-- <ol class="carousel-indicators">
+	          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	          <li data-target="#myCarousel" data-slide-to="1"></li>
+	          <li data-target="#myCarousel" data-slide-to="2"></li>
+	            </ol> -->
+	        <div class="carousel-inner cin" role="listbox">
+	          <div class="item active">
+	            <img class="tests" src="test.jpg" alt="Chania" >
+	             <div class="container">
+	                <div class="carousel-caption cap_btn">
+	                  <h1>Test Cricket.</h1>
+	                  <div class="btn-group pagenum">
+	                    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> -->
+	                    <!-- <span class="sr-only">Previous</span> -->
+	                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">Prev</button>
+	                    <!-- </a> -->
+	                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel" style = "color:red">1</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">2</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">3</button>
+	                    <!-- <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	                    <span class="sr-only">Next</span> -->
+	                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">Next</button>
+	                     <!-- </a>  -->
+	                  </div>
+	                </div>
+	              </div>
+	          
+	          </div>
+	          <div class="item">
+	            <img src="odi.jpg" alt="Chania" class = "odi" >
+	             <div class="container">
+	                <div class="carousel-caption cap_odi_btn">
+	                  <h1>One Day Cricket.</h1>
+	                  <div class="btn btn-group pagenum">
+	                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">Prev</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">1</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel" style = "color:red" >2</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">3</button>
+	                    <!-- <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	                    <span class="sr-only">Next</span> -->
+	                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">Next</button>
+	                    <!-- </a> -->
+	                  </div>
+	                </div>
+	              </div>              
+	          
+	          </div>
+	          <div class="item">
+	            <img src="t20.jpg" alt="Flower" class = "t20">
+	             <div class="container">
+	                <div class="carousel-caption cap_t20_btn">
+	                  <h1>T20 Cricket.</h1>
+	                  <div class="btn btn-group pagenum">
+	                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">Prev</button>                    
+	                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">1</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">2</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel" style = "color:red">3</button>
+	                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">Next</button>
+	                    <!-- </a> -->    
+	                    
+	                  </div>
+	                </div>
+	              </div>
+	          
+	          </div>
+	        </div>
+	        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	          <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	          <span class="sr-only">Next</span>
+	        </a>
+	        </div>
+	        <!-- <center><div class="btn-group pagenum">
+      <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">Prev</button>                    
+        <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">1</button>
+        <button type="button" class="btn btn-primary two" data-slide-to="1" data-target="#myCarousel">2</button>
+        <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">3</button>
+        <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">Next</button>    
+      </div></center> -->
+	      <!-- </div> -->
+	    <!-- </div> -->
+	    
+	  </div>
+		 </div> 	
+	<center><h2>Cricket,The Gentel men's game</h2></center>
+	<div class = "container">
+	<div class = "row">
+	  <div class = "col-lg-4"></div>
+	  <div class = "col-lg-4"></div>
+	  <div class = "col-lg-4">
+			<div class="input[type=text]"  class="input[type=text]:focus" align="right">
+			<form>
+	  <!-- <span class="glyphicon glyphicon-search"></span> -->
+	   		<input type="text" name="search" placeholder="Search..">
+	   <!-- <span class="glyphicon glyphicon-search"></span> -->
+			</form>
+			</div>
+	  </div>
+	</div>
+	</div>
+	    <!-- Marketing messaging and featurettes
+	    ================================================== -->
+	    <!-- Wrap the rest of the page in another container to center all the content. -->
+	    <hr class="featurette-divider">
+	<div class="container marketing">
 
-    <div class = "body_content">
-    <!-- Carousel
-    ================================================== -->
-    <div class="row">
-      <div class="col-xs-12">
-        <div class = "container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" style = "margin-top:90px;">
-      <!-- Indicators -->
-            <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="test.jpg" alt="Chania">
-             <div class="container">
-                <div class="carousel-caption">
-                  <h1>Test Cricket.</h1>
-                  <div class="btn-group">
-                    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> -->
-                    <!-- <span class="sr-only">Previous</span> -->
-                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">Prev</button>
-                    <!-- </a> -->
-                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">1</button>
-                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">2</button>
-                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">3</button>
-                    <!-- <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="sr-only">Next</span> -->
-                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">Next</button>
-                     <!-- </a>  -->
-                  </div>
-                </div>
-              </div>
-          
-          </div>
-          <div class="item">
-            <img src="odi.jpg" alt="Chania">
-             <div class="container">
-                <div class="carousel-caption">
-                  <h1>One Day Cricket.</h1>
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">Prev</button>
-                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">1</button>
-                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">2</button>
-                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">3</button>
-                    <!-- <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="sr-only">Next</span> -->
-                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">Next</button>
-                    <!-- </a> -->
-                  </div>
-                </div>
-              </div>              
-          
-          </div>
-          <div class="item">
-            <img src="t20.jpg" alt="Flower" >
-             <div class="container">
-                <div class="carousel-caption">
-                  <h1>T20 Cricket.</h1>
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">Prev</button>                    
-                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">1</button>
-                    <button type="button" class="btn btn-primary" data-slide-to="1" data-target="#myCarousel">2</button>
-                    <button type="button" class="btn btn-primary" data-slide-to="2" data-target="#myCarousel">3</button>
-                    
-                    <!-- <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="sr-only">Next</span> -->
-                    <button type="button" class="btn btn-primary" data-slide-to="0" data-target="#myCarousel">Next</button>
-                    <!-- </a> -->    
-                    
-                  </div>
-                </div>
-              </div>
-          
-          </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        </div>
-      </div>
-    </div>
-  </div><!-- /.carousel -->
-<center><h2>Cricket,The Gentel men's game</h2></center>
-
-<div class = "row">
-  <div class = "col-lg-4"></div>
-  <div class = "col-lg-4"></div>
-  <div class = "col-lg-4">
-<form>
-  <!-- <span class="glyphicon glyphicon-search"></span> -->
-   <input type="text" name="search" placeholder="Search..">
-   <!-- <span class="glyphicon glyphicon-search"></span> -->
-</form>
-</div>
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    <hr class="featurette-divider">
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
- -->          <h2>TEST CRICKET</h2>
-          <p>Test matches are the top international matches played between countries. The countries permitted to play test matches are accredited by the ICC: the International Cricket Council. The ten countries are listed above, with 'West Indies' counting for this purpose as a country. Tests last for up to five days: it is the longest format of cricket.</p>
-          <p><a class="btn btn-default about" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
-          <h2>ODI's</h2>
-          <p>ODIs are usually restricted to 50 overs batting for each side. The highest team score is England 444-3 against Pakistan in August 2016. The highest individual score is 264 off 173 balls by Rohit Sharma for India against Sri Lanka.</p>
-          <p><a class="btn btn-default about" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
- -->          <h2>T20 CRICKET</h2>
-          <p>Twenty20 cricket has 20 overs for each side. The highest team score is 263/5 by Royal Challengers Bangalore (RCB) against Pune Warriors India (PWI) in the 2013 IPL season. The highest individual score is 175* off 66 balls in the same match by Chris Gayle for RCB in the same match.</p>
-          <p><a class="btn btn-default about" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-<!--       <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div> -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-4">
-          
-          <p class="lead" style ="text-align:justify">The International Cricket Council (ICC) is the international governing body of cricket. It was founded as the Imperial Cricket Conference in 1909 by representatives from England, Australia and South Africa, renamed the International Cricket Conference in 1965, and took up its current name in 1989.
-
-          The ICC has 105 members: 10 Full Members that play Test matches, 39 Associate Members, and 56 Affiliate Members. The ICC is responsible for the organisation and governance of cricket's major international tournaments, most notably the Cricket World Cup. It also appoints the umpires and referees that officiate at all sanctioned Test matches, One Day International and Twenty20 Internationals.
-        </p>
-        </div>
-        <div class="col-md-4 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="icclogo.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
-      <div class = "container">
-        <p class = "lead" style ="text-align:justify"> On 15 June 1909 representatives from England, Australia and South Africa met at Lord's and founded the Imperial Cricket Conference. Membership was confined to the governing bodies of cricket within the British Empire where Test cricket was played. West Indies, New Zealand and India were elected as Full Members in 1926, doubling the number of Test-playing nations to six. That year it was also agreed to make a change in membership, with election being for; "governing bodies of cricket in countries within the Empire to which cricket teams are sent, or which send teams to England." However the United States did not meet these criteria and was not made a member.[10] After the formation of Pakistan in 1947, it was given Test status in 1952, becoming the seventh Test-playing nation. In May 1961 South Africa left the Commonwealth and therefore lost membership</p>
-      </div>
-        
-      <!-- </div> -->
-      <a href = "#">
-        <span class="glyphicon glyphicon-chevron-up pull-right"></span>
-      </a>
-      <p class="pull-right about"><a href="#">more..  </a></p>
-      
-
-<!--       <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div> -->
-    </div></div>
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
+	      <!-- Three columns of text below the carousel -->
+	      <div class="row">
+	        <div class="col-lg-4">
+	          <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	 -->          <h2>TEST CRICKET</h2>
+	          <p>Test matches are the top international matches played between countries. The countries permitted to play test matches are accredited by the ICC: the International Cricket Council. The ten countries are listed above, with 'West Indies' counting for this purpose as a country. Tests last for up to five days: it is the longest format of cricket.</p>
+	          <p><a class="btn btn-default about" href="about.html" role="button">View details &raquo;</a></p>
+	        </div><!-- /.col-lg-4 -->
+	        <div class="col-lg-4">
+	          <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+	          <h2>ODI's</h2>
+	          <p>ODIs are usually restricted to 50 overs batting for each side. The highest team score is England 444-3 against Pakistan in August 2016. The highest individual score is 264 off 173 balls by Rohit Sharma for India against Sri Lanka.</p>
+	          <p><a class="btn btn-default about" href="about.html" role="button">View details &raquo;</a></p>
+	        </div><!-- /.col-lg-4 -->
+	        <div class="col-lg-4">
+	          <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	 -->          <h2>T20 CRICKET</h2>
+	          <p>Twenty20 cricket has 20 overs for each side. The highest team score is 263/5 by Royal Challengers Bangalore (RCB) against Pune Warriors India (PWI) in the 2013 IPL season. The highest individual score is 175* off 66 balls in the same match by Chris Gayle for RCB in the same match.</p>
+	          <p><a class="btn btn-default about" href="about.html" role="button">View details &raquo;</a></p>
+	        </div><!-- /.col-lg-4 -->
+	      </div><!-- /.row -->
 
 
-      <!-- FOOTER -->
-      <div class="container">
-      <footer>
-        <!-- <p class="pull-right"><a href="#">more</a></p> -->
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-      </div>
-    </div><!-- /.container -->
-    <div class = "about_page">
-      <div class = "container">
-      <p class = "lead" style = "margin-top:100px;">
-          Cricket is a national sport which is played between two teams of eleven players each who score runs (points) by running between two sets of three small, wooden posts called wickets. Each of the wickets is at one end of a rectangle of flattened grass called the pitch. Around the pitch is a much larger oval of grass called the cricket ground.
+	      <!-- START THE FEATURETTES -->
 
-          The game started in England in the 16th century. The earliest definite reference to the sport is in a court case of 1598. The court in Guildford heard a coroner, John Derrick, that when he was a scholar at the "Free School at Guildford", fifty years earlier, "he and diverse of his fellows did run and play [on the common land] at cricket and other players". Later, the game spread to countries of the British Empire in the 19th and 20th centuries
-      </p>
-      <h2>One Day International:</h2>
-      <p class = "lead" style ="text-align:justify;">
-          In these games, the length is determined by the number of overs, and each side has one innings only. A special formula, known as the 'Duckworth–Lewis method' is applied if rain reduces the time for play. It calculates the target score for the team batting second in a limited overs match interrupted by weather or other circumstance.
-          ODIs are usually restricted to 50 overs batting for each side. The highest team score is England 444-3 against Pakistan in August 2016. The highest individual score is 264 off 173 balls by Rohit Sharma for India against Sri Lanka.
-      </p> 
-      <h2>Test Cricket</h2>
-      <p class = "lead" style ="text-align:justify;">Test matches are the top international matches played between countries. The countries permitted to play test matches are accredited by the ICC: the International Cricket Council. The ten countries are listed above, with 'West Indies' counting for this purpose as a country. Tests last for up to five days: it is the longest format of cricket
-      </p>
-      <h2>T20 Cricket</h2>
-      <p class = "lead" style ="text-align:justify;">Twenty20 cricket has 20 overs for each side. The highest team score is 263/5 by Royal Challengers Bangalore (RCB) against Pune Warriors India (PWI) in the 2013 IPL season. The highest individual score is 175* off 66 balls in the same match by Chris Gayle for RCB in the same match
-      </p>
-      <hr class="featurette-divider"> 
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </div>
-    </div>
+	<!--       <hr class="featurette-divider">
+
+	      <div class="row featurette">
+	        <div class="col-md-7">
+	          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+	          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+	        </div>
+	        <div class="col-md-5">
+	          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+	        </div>
+	      </div> -->
+
+	      <hr class="featurette-divider">
+
+	      <!-- <div class="row featurette"> -->
+	        <!-- <div class="col-md-7 col-md-push-4"> --><div>
+	          <img class="featurette-image img-responsive center-block imagelast imageleft" src="icclogo.jpg" alt="Generic placeholder image">
+	          <p class="lastext" style ="text-align:justify">The International Cricket Council (ICC) is the international governing body of cricket. It was founded as the Imperial Cricket Conference in 1909 by representatives from England, Australia and South Africa, renamed the International Cricket Conference in 1965, and took up its current name in 1989.
+
+	          The ICC has 105 members: 10 Full Members that play Test matches, 39 Associate Members, and 56 Affiliate Members. The ICC is responsible for the organisation and governance of cricket's major international tournaments, most notably the Cricket World Cup. It also appoints the umpires and referees that officiate at all sanctioned Test matches, One Day International and Twenty20 Internationals.
+	          On 15 June 1909 representatives from England, Australia and South Africa met at Lord's and founded the Imperial Cricket Conference. Membership was confined to the governing bodies of cricket within the British Empire where Test cricket was played. West Indies, New Zealand and India were elected as Full Members in 1926, doubling the number of Test-playing nations to six. That year it was also agreed to make a change in membership, with election being for; "governing bodies of cricket in countries within the Empire to which cricket teams are sent, or which send teams to England." However the United States did not meet these criteria and was not made a member.[10] After the formation of Pakistan in 1947, it was given Test status in 1952, becoming the seventh Test-playing nation. In May 1961 South Africa left the Commonwealth and therefore lost membership.On 15 June 1909 representatives from England, Australia and South Africa met at Lord's and founded the Imperial Cricket Conference. Membership was confined to the governing bodies of cricket within the British Empire where Test cricket was played. West Indies, New Zealand and India were elected as Full Members in 1926, doubling the number of Test-playing nations to six. That year it was also agreed to make a change in membership, with election being for; "governing bodies of cricket in countries within the Empire to which cricket teams are sent, or which send teams to England." However the United States did not meet these criteria and was not made a member.[10] After the formation of Pakistan in 1947, it was given Test status in 1952, becoming the seventh Test-playing nation. In May 1961 South Africa left the Commonwealth and therefore lost membership.
+	        </p>
+	        </div>
+	        <!-- <div class="col-md-4 col-md-pull-7"> -->
+	          
+	        <!-- </div> -->
+	      <!-- </div> -->
+	     <!--  <div class = "container">
+	        <p class = "lead" style ="text-align:justify"> On 15 June 1909 representatives from England, Australia and South Africa met at Lord's and founded the Imperial Cricket Conference. Membership was confined to the governing bodies of cricket within the British Empire where Test cricket was played. West Indies, New Zealand and India were elected as Full Members in 1926, doubling the number of Test-playing nations to six. That year it was also agreed to make a change in membership, with election being for; "governing bodies of cricket in countries within the Empire to which cricket teams are sent, or which send teams to England." However the United States did not meet these criteria and was not made a member.[10] After the formation of Pakistan in 1947, it was given Test status in 1952, becoming the seventh Test-playing nation. In May 1961 South Africa left the Commonwealth and therefore lost membership</p>
+	      </div> -->
+	        
+	      <!-- </div> -->
+	      
+	        <span class="glyphicon glyphicon-chevron-up pull-right scrollup"></span>
+	      
+	      <p class="pull-right about"><a href="about.html">more..  </a></p>
+	      
+
+	<!--       <hr class="featurette-divider">
+
+	      <div class="row featurette">
+	        <div class="col-md-7">
+	          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+	          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+	        </div>
+	        <div class="col-md-5">
+	          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+	        </div>
+	      </div> -->
+	    </div>
+	
+	      <hr class="featurette-divider">
+
+	      <!-- /END THE FEATURETTES -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-     <script type="text/javascript" src="jquery.js">
-     </script>
-  </body>
-</html>
+	      <!-- FOOTER -->
+ 	     
+	    <!-- <div class="container"> -->
+	  <!--     <footer style="background-color:black;">
+	     		<p><a href="#" class = "home"><img class="img-responsive logo" src="logo.jpg" width="80px;"></a></p>
+	        <p class="pull-right"><a href="#">more</a></p>
+	        			<center><p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p></center>
+
+	        
+	        <br/>
+	        <br/>
+	      </footer> -->
+	       <footer>
+	        		<p class="pull-right foot"><a href="#">Back to top</a></p>
+	        		<p class="foot">&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	      		</footer>
+	     
+	<!-- </div> -->
+	    
+
+
+
+	    <!-- Bootstrap core JavaScript
+	    ================================================== -->
+	    <!-- Placed at the end of the document so the pages load faster -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	     <script type="text/javascript" src="jquery.js">
+	     </script>
+	  </body>
+	</html>
+
