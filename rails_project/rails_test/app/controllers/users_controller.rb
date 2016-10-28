@@ -4,10 +4,12 @@ class UsersController < ApplicationController
 	end
 
 	def create
-		# binding.pry
 		@user = User.new(users_params)
-		@user.save
-		redirect_to user_new_path
+		if @user.save
+		  redirect_to user_list_path
+		else
+			render 'new'
+		end
 	end
 
 	def index
@@ -20,8 +22,11 @@ class UsersController < ApplicationController
 
 	def update
 		@user = User.find_by_id(params[:id])
-		@user.update_attributes(users_params)
+		#binding.pry
+		 @user.update_attributes(users_params)
+		#binding.pry
 		redirect_to user_list_path
+		
 	end
 
 	def destroy
@@ -30,8 +35,31 @@ class UsersController < ApplicationController
 		redirect_to user_list_path
 	end
 
+	def show
+		@user = User.find(params[:id])
+	end
+
+	def project
+		@users = User.all
+		@project = Project.new
+	end
+
+	def create_proj
+		@project = Project.new(projects_params)
+		binding.pry
+		if @project.save
+		  redirect_to user_profile_path
+		else
+			render 'project'
+		end
+	end
+
 	private
 	def users_params
 		params.require(:user).permit(:firstname,:lastname,:email,:password)
+	end
+
+	def projects_params
+		params.require(:project).permit(:name,:duration,:team_size,:cost,:domain,:user_id)
 	end
 end

@@ -5,6 +5,7 @@
 	<th>Email</th>
 	<th>Edit</th>
 	<th>Destroy</th>
+	<th>Profile</th>
 </tr>	
 
 <% @users.each do |user|%>
@@ -14,7 +15,9 @@
 <td><%= user.email %></td>
 <td><%= link_to 'Edit', user_edit_path(user)%></td>
 <td><%= link_to 'Destroy', user_destroy_path(user),method: :delete, data: {confirm: 'Are you sure?'}%></td>
+<td><%= link_to 'profile', user_profile_path(user)%></td>
 <%end%>
 </tr>
 
 </table>
+<%= link_to 'Create New?', user_new_path%>

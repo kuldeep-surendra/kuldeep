@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get '/user/:id/edit' => 'users#edit',as: :user_edit
   put '/user/:id/edit' => 'users#update',as: :user_update
   delete '/user/:id' => 'users#destroy',as: :user_destroy
+  get '/user/:id/profile' => 'users#show',as: :user_profile
+  get '/user/:id/project' => 'users#project',as: :user_project
+  post '/user/:id/project' => 'users#create_proj',as: :user_create_proj
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
